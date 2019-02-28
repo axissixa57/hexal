@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    overflow: auto;
+    /* overflow: auto; */
     min-width: 980px;
     font-family: "Helvetica", "Georgia", sans-serif;
 }
@@ -27,36 +27,46 @@ div {
     margin: 0 auto; 
 }
 
-.menu-item {
-    float: left;
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
-.menu-item:last-child {
-    float: right;
+.menu li {
+    display: block;
+    float: left;
+    margin: 0 5px;
+    padding-top: 22px;
 }
 
-.menu-item a {
-    float: left;
+.menu a {
     font-size: 10px;
-    font-family: "Lato";
-    color: #fff;
     text-decoration: none;
     text-transform: uppercase; 
-    padding-top: 30px;
+    color: #fff;
+    font-family: Lato;
 }
 
-.menu-item .active{
+#arrow {
+    margin: 0 35px;
+    padding-top: 10px;
+}
+
+#point-left,
+#point-right {
+    position: relative;
+    top: -2px;
+    color: #474c5f;
+}
+
+.menu .active{
     color: #2eb398;   
 }
 
-.menu-item a:hover{
+.menu a:hover{
     color: #2eb398;
-}
-
-#point-left, 
-#point-right {
-    padding-top: 28px;
-    color: #474c5f;
 }
 
 main {
