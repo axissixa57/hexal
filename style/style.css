@@ -67,7 +67,7 @@ main {
     height: 720px;
 }
 
-.header {
+.heading {
     display: flex;
     justify-content: center;
 }
