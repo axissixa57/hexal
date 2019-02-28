@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    height: 63px;
     background-color: #323232;
 }
 
@@ -21,26 +22,13 @@ div {
     box-sizing: border-box;
 }
 
-.container-header {
-    width: 370px;
+.container {
+    width: 780px;
     margin: 0 auto; 
 }
 
 .menu-item {
     float: left;
-}
-
-.menu-item:first-child a {
-    margin-right: 10px;
-}
-
-.menu-item:nth-child(2) {
-    padding-top: 10px;
-    margin-bottom: -7px;
-}
-
-.menu-item:last-child a {
-    margin-left: 10px;
 }
 
 .menu-item:last-child {
@@ -50,7 +38,7 @@ div {
 .menu-item a {
     float: left;
     font-size: 10px;
-    font-family: Lato;
+    font-family: "Lato";
     color: #fff;
     text-decoration: none;
     text-transform: uppercase; 
@@ -71,22 +59,9 @@ div {
     color: #474c5f;
 }
 
-#about {
-    margin-right: 35px;
-}
-
-#blog {
-    margin-left: 35px;
-}
-
 main {
     background-color: #ffffff;
     height: 720px;
-}
-
-.container-main {
-    width: 980px;
-    margin: 0 auto;
 }
 
 .line-left hr, 
@@ -104,23 +79,18 @@ main {
     border-color: #323232 transparent transparent transparent;
 }
 
-.item-header-main {
+.header-item {
     float: left;
     margin-left: 5px;
 }
 
-.item-header-main:nth-child(2) {
+.header-item:nth-child(2) {
     margin-left: 23px;
 }
 
-.item-header-main:last-child {
+.header-item:last-child {
     float: right;
     margin-right: 12px;
-}
-
-.container-hexagen {
-    width: 790px;
-    margin: 0px auto;
 }
 
 .hexagen {
