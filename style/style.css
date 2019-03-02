@@ -1,3 +1,20 @@
+@font-face {
+    font-family: lato-bold;
+    src: url(../fonts/Lato-Bold.ttf);
+  }
+  @font-face {
+    font-family: lato-regular;
+    src: url(../fonts/Lato-Regular.ttf);
+  }
+  @font-face {
+    font-family: lato-black;
+    src: url(../fonts/Lato-Black.ttf);
+  }
+  @font-face {
+    font-family: lato-light;
+    src: url(../fonts/Lato-Light.ttf);
+  }
+
 body {
     padding: 0;
     margin: 0;
@@ -90,14 +107,13 @@ main {
     padding-bottom: 63px;
 }
 
-.slider {
-    margin-top: 0;
+.hex-slider {
+    height: 545px;
 }
 
 .hexagen {
     width: 180px;
     height: 210px;
-    /* background: #ccc3; */
     margin: 0 10px;
     transform: rotate(120deg);
     overflow: hidden;
@@ -108,7 +124,6 @@ main {
 .hex-layer-1 {
     width: 100%;
     height: 100%;
-    /* background: #ccc3; */
     visibility: hidden;
     transform: rotate(-60deg);
     overflow: hidden;
@@ -197,7 +212,7 @@ main {
 
 .lineLeftBottom {
     position: relative;
-    top: -223px;
+    top: -12px;
     right: 410px;
     width: 100px;
     border: 0.5px solid #e4e9eb;
@@ -206,7 +221,7 @@ main {
 
 .lineRightBottom {
     position: relative;
-    top: -232px;
+    top: -23px;
     right: -410px;
     width: 100px;
     border: 0.5px solid #e4e9eb;
@@ -221,21 +236,52 @@ main {
 .row-2 {
     display: flex;
     justify-content: center;
-    position: relative;
-    top: -67px;
-    /* right: 0px; */
+    position: absolute;
+    top: 320px;
+    /* position: relative;
+    top: -67px; */
 }
 
 .row-3 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -110px;
-    /* right: 0px; */
+    top: 100px;
 }
 
-/* * {
-    border: 1px solid red;
-} */
+.main-footer {
+    display: flex;
+    flex-flow: column wrap;
+    padding-top: 60px;
+}
 
+.slider {
+    align-self: flex-start;
+    display: flex;
+    padding-left: 20px;
+  }
 
+.slider-item {
+    display: block;
+    height: 5px;
+    width: 6px;
+    font-size: 1pt;
+    background-color: rgb(221, 210, 198);
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.checked {
+    background-color: rgb(139, 135, 132);
+}
+
+.slider-item:hover {
+    background-color: rgb(139, 135, 132);
+}
+
+.bottomLine {
+    position: relative;
+    top: 2px;
+    width: 965px;
+    border: 0.5px solid #e4e9eb;
+}
