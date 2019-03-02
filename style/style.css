@@ -15,7 +15,7 @@ div {
 }
 
 .container {
-    width: 980px;
+    width: 1000px;
     margin: 0 auto; 
 }
 
@@ -95,7 +95,7 @@ main {
     width: 180px;
     height: 210px;
     /* background: #ccc3; */
-    margin-right: 15px;
+    margin: 0 10px;
     transform: rotate(120deg);
     overflow: hidden;
     visibility: hidden;
@@ -142,14 +142,33 @@ main {
     background-image: url('../img/portfolio-item12.png');
 }
 
-.hexagen:nth-child(4) {
-    margin-right: 0px;
+/* .hexagen:nth-child(5) {
+    margin: 0px;
+} */
+
+/* .hex-layer-2 {
+    margin-right: 20px;
+} */
+
+.row-1 {
+    display: flex;
+    justify-content: center;
 }
 
 .row-2 {
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: -50px;
-    right: 110px;
+    top: -40px;
+    right: 0px;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -85px;
+    right: 0px;
 }
 
 /* * {
