@@ -64,7 +64,6 @@ div {
 
 main {
     background-color: #ffffff;
-    height: 720px;
 }
 
 .heading {
@@ -89,6 +88,10 @@ main {
     border-color: #323232 transparent transparent transparent;
     margin: 0 25px;
     padding-bottom: 63px;
+}
+
+.slider {
+    margin-top: 0;
 }
 
 .hexagen {
@@ -142,13 +145,73 @@ main {
     background-image: url('../img/portfolio-item12.png');
 }
 
-/* .hexagen:nth-child(5) {
-    margin: 0px;
-} */
+#hex6 {
+    background-image: url('../img/portfolio-item13.png');
+}
 
-/* .hex-layer-2 {
-    margin-right: 20px;
-} */
+#hex7 {
+    background-image: url('../img/portfolio-item11.png');
+}
+
+#hex8 {
+    background-image: url('../img/portfolio-item4.png');
+}
+
+#hex9 {
+    background-image: url('../img/portfolio-item5.png');
+}
+
+#hex10 {
+    background-image: url('../img/portfolio-item2.png');
+}
+
+#hex11 {
+    background-image: url('../img/portfolio-item1.png');
+}
+
+#hex12 {
+    background-image: url('../img/portfolio-item10.png');
+}
+
+#hex13 {
+    background-image: url('../img/portfolio-item3.png');
+}
+
+.lineLeftTop {
+    position: relative;
+    top: -115px;
+    right: 410px;
+    width: 100px;
+    border: 0.5px solid #e4e9eb;
+    transform: rotate(90deg);
+}
+
+.lineRightTop {
+    position: relative;
+    top: -123px;
+    right: -410px;
+    width: 100px;
+    border: 0.5px solid #e4e9eb;
+    transform: rotate(90deg);
+}
+
+.lineLeftBottom {
+    position: relative;
+    top: -223px;
+    right: 410px;
+    width: 100px;
+    border: 0.5px solid #e4e9eb;
+    transform: rotate(90deg);
+}
+
+.lineRightBottom {
+    position: relative;
+    top: -232px;
+    right: -410px;
+    width: 100px;
+    border: 0.5px solid #e4e9eb;
+    transform: rotate(90deg);
+}
 
 .row-1 {
     display: flex;
@@ -159,16 +222,16 @@ main {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -40px;
-    right: 0px;
+    top: -67px;
+    /* right: 0px; */
 }
 
 .row-3 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -85px;
-    right: 0px;
+    top: -110px;
+    /* right: 0px; */
 }
 
 /* * {
