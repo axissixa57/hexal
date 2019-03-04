@@ -291,22 +291,27 @@ main {
 
 #blog {
     background: #2eb398;
-    padding-top: 68px;
-    padding-bottom: 103px;
+    height: 340px;
 }
 
 .blog-wrapper {
-    width: 800px;
+    padding-top: 68px;
 }
 
 #hex14 {
     background-image: url('../img/man.png');
-    
 }
 
 .man-img {
     float: left;
-    margin-right: 20px;
+    margin-left: 110px;
+}
+
+.man-info {
+    float: right;
+    width: 580px;
+    margin-top: -7px;
+    margin-right: 111px;
 }
 
 .name {
@@ -333,15 +338,15 @@ main {
     font-weight: 400;
     line-height: 21.56px;
     text-align: justify;
+    margin-top: -7px;
+    margin-bottom: 0px;
 }
 
-/* .man-info {
-    margin-left: 0px;
-} */
-
-/* .about-wrapper {
-    padding-top: 0px;
-} */
+#sm-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
 
 #GetInTouch {
     background: #323232;
