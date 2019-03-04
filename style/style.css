@@ -348,6 +348,24 @@ main {
     margin-top: 40px;
 }
 
+.blog-lineLeft {
+    position: relative;
+    top: -113px;
+    right: 410px;
+    width: 315px;
+    border: 0.5px solid #219d84;
+    transform: rotate(90deg);
+}
+
+.blog-lineRight {
+    position: relative;
+    top: -119px;
+    right: -411px;
+    width: 315px;
+    border: 0.5px solid #219d84;
+    transform: rotate(90deg);
+}
+
 #GetInTouch {
     background: #323232;
     padding-top: 564px;
