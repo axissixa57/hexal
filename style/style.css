@@ -16,7 +16,7 @@
 body {
     padding: 0;
     margin: 0;
-    min-width: 980px;
+    /* min-width: 980px; */
     font-family: "Helvetica", "Georgia", sans-serif;
 }
 
@@ -368,5 +368,130 @@ main {
 
 #GetInTouch {
     background: #323232;
-    padding-top: 564px;
+    height: 564px;
+}
+
+.get_in_touch {
+    padding: 38px 0 38px 0;
+    background-color: #323232;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.inner {
+    margin: 0 auto;
+    position: relative;
+    width: 780px;
+    height: 100%;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.get_in_touch h2 {
+    font-family: MyriadProRegular;
+    color: #e0e0e0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 4.56px;
+    text-align: justify;
+}
+
+.get_in_touch h3{
+    font-family: MyriadProRegular;
+    color: #bebebe;
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 21.56px; 
+    text-align: justify;
+}
+
+.get_in_touch input {
+    display: block;
+    width: 550px;
+    height: 38px;
+    margin: 0 0 16px;
+    padding: 0 15px;
+    background: #454545;
+    border: none;
+    font: 12px/1.2 "Lato", sans-serif;
+    color: #bebebe;
+}
+
+#ta {
+    display: block;
+    width: 550px;
+    height: 150px;
+    margin: 0 0 16px;
+    background: #454545;
+    border: none;
+    font: 12px/1.2 "Lato", sans-serif;
+    color: #bebebe;
+    padding: 8px 15px;
+    line-height: 22px;
+}
+
+.div_submit{
+    width: 580px;
+    height: 37px;
+}
+
+.get_in_touch input[type="submit"]{
+    background-color: #2eb398;
+    width: 90px;
+    height: 37px;
+    text-align: center;
+    font-family: Lato;
+    color: #d7fcf5;
+    font-size: 11.22px; 
+    font-weight: 700;
+    line-height: 21.56px; 
+    float: right;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0!important;
+}
+input[type="submit"]:hover{
+    background-color: #d7fcf5;
+    color: #2eb398;
+}
+.form_right_section {
+    margin-top: -20px;
+    float: right;
+    width: 180px;
+    font-family: Lato;
+    color: #bebebe;
+    font-size: 12px; 
+    font-weight: 400;
+    line-height: 21.56px; 
+}
+.form_right_section p{
+   text-align: justify; 
+}
+.ico_frs{
+    display: inline-block;
+    margin-right: 5px;
+    color: #2eb398;
+}
+
+#copyright {
+    background: #222222;
+    height: 42px;
+    width: 100%;
+    float: left;
+}
+
+.footer p {
+    font-family: MyriadProRegular;
+    color: #454545;
+    font-size: 12px; 
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 30px;
 }
