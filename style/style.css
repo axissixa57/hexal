@@ -372,7 +372,7 @@ main {
 }
 
 .get_in_touch {
-    padding: 38px 0 38px 0;
+    padding: 50px 0 38px 0;
     background-color: #323232;
     width: 100%;
     position: relative;
@@ -403,13 +403,14 @@ main {
     text-align: justify;
 }
 
-.get_in_touch h3{
+.get_in_touch h3 {
     font-family: MyriadProRegular;
     color: #bebebe;
     font-size: 18px; 
     font-weight: 400;
     line-height: 21.56px; 
     text-align: justify;
+    margin-top: -10px;
 }
 
 .get_in_touch input {
@@ -427,7 +428,7 @@ main {
 #ta {
     display: block;
     width: 550px;
-    height: 150px;
+    height: 135px;
     margin: 0 0 16px;
     background: #454545;
     border: none;
@@ -437,12 +438,12 @@ main {
     line-height: 22px;
 }
 
-.div_submit{
+.div_submit {
     width: 580px;
     height: 37px;
 }
 
-.get_in_touch input[type="submit"]{
+.get_in_touch input[type="submit"] {
     background-color: #2eb398;
     width: 90px;
     height: 37px;
@@ -457,12 +458,14 @@ main {
     cursor: pointer;
     margin: 0!important;
 }
-input[type="submit"]:hover{
+
+input[type="submit"]:hover {
     background-color: #d7fcf5;
     color: #2eb398;
 }
+
 .form_right_section {
-    margin-top: -20px;
+    margin-top: -13px;
     float: right;
     width: 180px;
     font-family: Lato;
@@ -471,27 +474,53 @@ input[type="submit"]:hover{
     font-weight: 400;
     line-height: 21.56px; 
 }
-.form_right_section p{
+
+.form_right_section p {
    text-align: justify; 
 }
-.ico_frs{
-    display: inline-block;
-    margin-right: 5px;
-    color: #2eb398;
+
+.info-bottom {
+    margin-top: 36px;
+}
+
+.location,
+.phone,
+.email {
+    margin: 0px;
+}
+
+.location-img {
+    position: relative;
+    float: left;
+    top: 4px;
+    left: 3px;
+    margin-right: 16px;
+}
+
+.phone-img {
+    position: relative;
+    float: left;
+    top: 3px;
+    margin-right: 12px;
+}
+
+.mail-img {
+    position: relative;
+    float: left;
+    top: 6px;
+    margin-right: 12px;
 }
 
 #copyright {
     background: #222222;
     height: 42px;
-    width: 100%;
-    float: left;
 }
 
-.footer p {
+.footer {
     font-family: MyriadProRegular;
     color: #454545;
     font-size: 12px; 
-    font-weight: 400;
-    line-height: 20px;
+    margin: 0px;
     margin-left: 30px;
+    padding-top: 13px;
 }
