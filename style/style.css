@@ -1,16 +1,12 @@
 @font-face {
 	font-family: "Lato";
 	src: url("../fonts/Lato2OFL/Lato-Regular.ttf");
-	font-style: normal;
-	font-weight: normal;
 }
 
 
 @font-face {
 	font-family: "MyriadProRegular";
     src:url("../fonts/MyriadProRegular.ttf");
-    font-style: normal;
-	font-weight: normal;
 }
 
 body {
@@ -108,6 +104,19 @@ main {
 .hex-slider {
     height: 545px;
 }
+
+/* .hex-slider::before, .hex-slider::after {
+    content: "";
+    width: 80%;
+    height: 1px;
+    position: absolute;
+    left: 10%;
+    background: rgba(0,0,0,.1);
+}
+
+.hex-slider::before {
+    top: 15px;
+} */
 
 .hexagen {
     width: 180px;
@@ -291,7 +300,7 @@ main {
 
 #blog {
     background: #2eb398;
-    height: 340px;
+    height: 341px;
 }
 
 .blog-wrapper {
@@ -320,6 +329,7 @@ main {
     color: #d8fcf5;
     font-size: 30px;
     font-weight: 400;
+    word-spacing: 8px;
 }
 
 .description {
@@ -329,6 +339,7 @@ main {
     font-size: 18px;
     font-weight: 400;
     line-height: 21.56px;
+    word-spacing: 5px;
 }
 
 .text {
@@ -373,7 +384,6 @@ main {
 
 .get_in_touch {
     padding: 50px 0 38px 0;
-    background-color: #323232;
     width: 100%;
     position: relative;
     float: left;
@@ -394,6 +404,23 @@ main {
     clear: both;
 }
 
+.get_in_touch::before, .get_in_touch::after {
+    content: "";
+    position: absolute;
+    left: 18%;
+    width: 64%;
+    height: 1px;
+    background-color: rgba(0,0,0,.1);
+}
+
+.get_in_touch::before {
+    top: 15px;
+}
+
+.get_in_touch::after {
+    bottom: -15px;
+}
+
 .get_in_touch h2 {
     font-family: MyriadProRegular;
     color: #e0e0e0;
@@ -401,6 +428,7 @@ main {
     font-weight: 400;
     line-height: 4.56px;
     text-align: justify;
+    word-spacing: 7px;
 }
 
 .get_in_touch h3 {
@@ -411,6 +439,7 @@ main {
     line-height: 21.56px; 
     text-align: justify;
     margin-top: -10px;
+    word-spacing: 3px;
 }
 
 .get_in_touch input {
@@ -423,6 +452,7 @@ main {
     border: none;
     font: 12px/1.2 "Lato", sans-serif;
     color: #bebebe;
+    word-spacing: 0px;
 }
 
 #ta {
