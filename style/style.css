@@ -410,7 +410,7 @@ main {
     font-weight: 400;
     line-height: 21.56px; 
     text-align: justify;
-    margin-top: -12px;
+    margin-top: -10px;
 }
 
 .get_in_touch input {
@@ -497,7 +497,7 @@ input[type="submit"]:hover {
 .phone-img {
     position: relative;
     float: left;
-    top: 3px;
+    top: 7px;
     margin-right: 12px;
 }
 
