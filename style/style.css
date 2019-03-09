@@ -4,18 +4,16 @@ body {
     font-family: "Helvetica", "Georgia", sans-serif;
 }
 
-div {
-    box-sizing: border-box;
+.container {
+    width: 1000px;
+    margin: 0px auto;
 }
+
+/* HEADER */
 
 header {
     height: 63px;
     background-color: #323232;
-}
-
-.container {
-    width: 1000px;
-    margin: 0px auto;
 }
 
 .menu {
@@ -27,7 +25,7 @@ header {
 }
 
 .menu__item {
-    margin: 27px 11px 0 13px;
+    margin: 26px 11px 0 13px;
     position: relative;
 }
 .menu__item::after {
@@ -59,14 +57,22 @@ header {
     color: #2eb398;
 }
 
+.active {
+    color: #2eb398;
+}
+
 .logo {
     margin: 12px 26px 0;
     z-index: 3;
 }
 
+/* MAIN */
+
 main {
     background-color: #ffffff;
 }
+
+/* HEADING */
 
 .heading {
     display: flex;
@@ -92,11 +98,13 @@ main {
     padding-bottom: 63px;
 }
 
-.hex-slider {
+/* HEXAGONS */
+
+.hexagons {
     height: 545px;
 }
 
-.hexagen {
+.hexagon {
     width: 180px;
     height: 210px;
     margin: 0 10px;
@@ -107,7 +115,7 @@ main {
     transition: transform 1s ease-in;
 }
 
-.hexagen:hover {
+.hexagon:hover {
     transform: rotate(-240deg);
     transition: transform 1s ease-in;
 }
@@ -242,7 +250,7 @@ main {
     display: flex;
     flex-flow: column wrap;
     padding-top: 60px;
-    margin-bottom: 6px;
+    padding-bottom: 6px;
 }
 
 .slider {
@@ -290,11 +298,10 @@ main {
 }
 
 .man-img {
-    float: left;
     margin-left: 110px;
 }
 
-.man-info {
+ .man-info {
     float: right;
     width: 580px;
     margin-top: -7px;
@@ -310,7 +317,7 @@ main {
 }
 
 .description {
-    margin-top: -3px;
+    margin-top: -1px;
     font-family: 'Maven Pro';
     color: #20816d;
     font-size: 18px;
@@ -325,18 +332,17 @@ main {
     line-height: 21.56px;
     text-align: justify;
     margin-top: -4px;
-    margin-bottom: 0px;
 }
 
 #sm-btns {
     display: flex;
     justify-content: flex-end;
-    margin-top: 40px;
+    margin-top: 38px;
 }
 
 .blog-lineLeft {
     position: relative;
-    top: -113px;
+    top: -120px;
     right: 410px;
     width: 315px;
     border: 0.5px solid #219d84;
@@ -345,12 +351,14 @@ main {
 
 .blog-lineRight {
     position: relative;
-    top: -119px;
+    top: -129px;
     right: -411px;
     width: 315px;
     border: 0.5px solid #219d84;
     transform: rotate(90deg);
 }
+
+/* GET IN TOUCH */
 
 #GetInTouch {
     background: #323232;
@@ -361,29 +369,20 @@ main {
     padding: 50px 0 38px 0;
     width: 100%;
     position: relative;
-    float: left;
 }
 
-.inner {
+.feedBack {
     margin: 0 auto;
     position: relative;
     width: 780px;
     height: 100%;
 }
 
-.clearfix::after {
-    display: block;
-    content: "";
-    height: 0;
-    visibility: hidden;
-    clear: both;
-}
-
 .get_in_touch::before, .get_in_touch::after {
     content: "";
     position: absolute;
-    left: 18%;
-    width: 64%;
+    left: 8%;
+    width: 84%;
     height: 1px;
     background-color: rgba(0,0,0,.1);
 }
@@ -402,7 +401,6 @@ main {
     font-size: 30px;
     font-weight: 400;
     line-height: 4.56px;
-    text-align: justify;
 }
 
 .get_in_touch h3 {
@@ -411,7 +409,6 @@ main {
     font-size: 18px; 
     font-weight: 400;
     line-height: 21.56px; 
-    text-align: justify;
     margin-top: -10px;
 }
 
@@ -419,11 +416,14 @@ main {
     display: block;
     width: 550px;
     height: 39px;
-    margin: 0 0 16px;
+    margin: 0 0 15px;
     padding: 0 15px;
     background: #454545;
     border: none;
-    font: 12px/1.2 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21.56px;
     color: #bebebe;
 }
 
@@ -434,7 +434,10 @@ main {
     margin: 0 0 16px;
     background: #454545;
     border: none;
-    font: 12px/1.2 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21.56px;
     color: #bebebe;
     padding: 8px 15px;
     line-height: 22px;
@@ -452,13 +455,12 @@ main {
     text-align: center;
     font-family: 'Lato';
     color: #d7fcf5;
-    font-size: 11.22px; 
+    font-size: 11px; 
     font-weight: 700;
     line-height: 21.56px; 
     float: right;
     text-transform: uppercase;
     cursor: pointer;
-    margin: 0!important;
 }
 
 input[type="submit"]:hover {
@@ -467,7 +469,7 @@ input[type="submit"]:hover {
 }
 
 .form_right_section {
-    margin-top: -14px;
+    margin-top: -16px;
     float: right;
     width: 181px;
     font-family: 'Lato';
@@ -479,7 +481,7 @@ input[type="submit"]:hover {
 }
 
 .info-bottom {
-    margin-top: 36px;
+    margin-top: 38px;
 }
 
 .location,
@@ -510,6 +512,8 @@ input[type="submit"]:hover {
     margin-right: 12px;
 }
 
+/* FOOTER */
+
 #copyright {
     background: #222222;
     height: 43px;
@@ -518,8 +522,10 @@ input[type="submit"]:hover {
 .footer {
     font-family: 'Maven Pro';
     color: #454545;
-    font-size: 12px; 
+    font-size: 12px;
+    font-weight: 400; 
+    line-height: 6.32px;
     margin: 0px;
     margin-left: 27px;
-    padding-top: 13px;
+    padding-top: 18px;
 }
