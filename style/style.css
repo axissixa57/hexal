@@ -142,51 +142,39 @@ main {
 #hex1 {
     background-image: url('../img/portfolio-item7.png');
 }
-
 #hex2 {
     background-image: url('../img/portfolio-item8.png');
 }
-
 #hex3 {
     background-image: url('../img/portfolio-item6.png');
 }
-
 #hex4 {
     background-image: url('../img/portfolio-item9.png');
 }
-
 #hex5 {
     background-image: url('../img/portfolio-item12.png');
 }
-
 #hex6 {
     background-image: url('../img/portfolio-item13.png');
 }
-
 #hex7 {
     background-image: url('../img/portfolio-item11.png');
 }
-
 #hex8 {
     background-image: url('../img/portfolio-item4.png');
 }
-
 #hex9 {
     background-image: url('../img/portfolio-item5.png');
 }
-
 #hex10 {
     background-image: url('../img/portfolio-item2.png');
 }
-
 #hex11 {
     background-image: url('../img/portfolio-item1.png');
 }
-
 #hex12 {
     background-image: url('../img/portfolio-item10.png');
 }
-
 #hex13 {
     background-image: url('../img/portfolio-item3.png');
 }
@@ -246,7 +234,7 @@ main {
     top: 100px;
 }
 
-.main-footer {
+.main-slider {
     display: flex;
     flex-flow: column wrap;
     padding-top: 60px;
@@ -284,6 +272,8 @@ main {
     border: 0.5px solid #e4e9eb;
 }
 
+/* BLOG */
+
 #blog {
     background: #2eb398;
     height: 341px;
@@ -301,7 +291,7 @@ main {
     margin-left: 110px;
 }
 
- .man-info {
+.man-info {
     float: right;
     width: 580px;
     margin-top: -7px;
@@ -338,6 +328,32 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-top: 38px;
+}
+
+#fb-color,
+.tt-color,
+.gg-color,
+.pi-color,
+.ln-color,
+.db-color {
+    display: none;
+}
+
+#sm-btns a:hover img[id="fb-green"],
+#sm-btns a:hover img[class="tt-green"],
+#sm-btns a:hover img[class="gg-green"],
+#sm-btns a:hover img[class="pi-green"],
+#sm-btns a:hover img[class="ln-green"],
+#sm-btns a:hover img[class="db-green"] {
+    display: none;
+}
+#sm-btns a:hover img[id="fb-color"],
+#sm-btns a:hover img[class="tt-color"],
+#sm-btns a:hover img[class="gg-color"],
+#sm-btns a:hover img[class="pi-color"],
+#sm-btns a:hover img[class="ln-color"],
+#sm-btns a:hover img[class="db-color"] {
+    display: block;
 }
 
 .blog-lineLeft {
@@ -488,6 +504,11 @@ input[type="submit"]:hover {
 .phone,
 .email {
     margin: 0px;
+}
+
+.info-bottom a {
+    color: #bebebe;
+    text-decoration: none;
 }
 
 .location-img {

@@ -70,7 +70,7 @@
                         <hr class="lineLeftBottom">
                         <hr class="lineRightBottom">
                 </div>
-                <div class="main-footer">
+                <div class="main-slider">
                     <nav class="slider">
                         <span class="slider-item">.</span>
                         <span class="slider-item">.</span>
@@ -94,12 +94,12 @@
                         <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhon&shy;cus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
                     </div>
                     <div id="sm-btns">
-                        <a href="https://www.facebook.com"><img class="facebook" src="./img/Facebook-green.png"></a>
-                        <a href="https://www.twitter.com"><img src="./img/Twitter-green.png"></a>
-                        <a href="https://plus.google.com"><img src="./img/Google-green.png"></a>
-                        <a href="https://www.pinterest.com"><img src="./img/Pinterest-green.png"></a>
-                        <a href="https://www.linkedin.com"><img src="./img/Linkedin-green.png"></a>
-                        <a href="https://www.dribbble.com"><img src="./img/Dribbble-green.png"></a>
+                        <a href="https://www.facebook.com" target="_blank"><img id="fb-green" src="./img/Facebook-green.png"><img id="fb-color" src="./img/facebook.png"></a>
+                        <a href="https://www.twitter.com" target="_blank"><img class="tt-green" src="./img/Twitter-green.png"><img class="tt-color" src="./img/twitter.png"></a>
+                        <a href="https://plus.google.com" target="_blank"><img class="gg-green" src="./img/Google-green.png"><img class="gg-color" src="./img/google.png"></a>
+                        <a href="https://www.pinterest.com" target="_blank"><img class="pi-green" src="./img/Pinterest-green.png"><img class="pi-color" src="./img/pinterest.png"></a>
+                        <a href="https://www.linkedin.com" target="_blank"><img class="ln-green" src="./img/Linkedin-green.png"><img class="ln-color" src="./img/linkedin.png"></a>
+                        <a href="https://www.dribbble.com" target="_blank"><img class="db-green" src="./img/Dribbble-green.png"><img class="db-color" src="./img/dribbble.png"></a>
                     </div>   
                 </div>
                 <hr class="blog-lineLeft">
@@ -121,16 +121,20 @@
                         <div class="info-bottom">
                             <img class="location-img" src="./img/location.png" alt="location">
                             <p class="location">Elm St. 14/05 Lost City</p>
-                            <img class="phone-img" src="./img/phone.png" alt="phone">
-                            <p class="phone">+ 3528 331 86 35</p>
-                            <img class="mail-img" src="./img/mail.png" alt="mail">
-                            <p class="email">info@hexalcorp.com</p>
+                            <a href="tel:35283318635">
+                                <img class="phone-img" src="./img/phone.png" alt="phone">
+                                <p class="phone">+ 3528 331 86 35</p>
+                            </a>
+                            <a href="mailto:info@hexalcorp.com"">
+                                <img class="mail-img" src="./img/mail.png" alt="mail">
+                                <p class="email">info@hexalcorp.com</p>
+                            </a>
                         </div>
                     </div>
                     <form method="get" action="#">
                         <input type="text" name="name" placeholder="Name (Required)" class="name" required> </input>
-                        <input type="email" name="email" placeholder="Email (Required)" required class="email"></input>
-                        <input type="text" name="subject" placeholder="Subject" class="subject required"></input>
+                        <input type="email" name="email" placeholder="Email (Required)" class="email" required></input>
+                        <input type="text" name="subject" placeholder="Subject" class="subject"></input>
                         <textarea id="ta" name="ta" placeholder="Write your message here..." class="textarea"></textarea>
                         <div class="div_submit">
                             <input type="submit" value="Send">
@@ -141,7 +145,7 @@
         </section>
         <section id="copyright">
             <div class="container">
-                <p class="footer">© Copyright 2013 by PSDchat</p>
+                <p class="footer">&copy Copyright 2013 by PSDchat</p>
             </div>
         </section>
     </footer>
